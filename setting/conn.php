@@ -5,7 +5,7 @@ $db = new Medoo([
     'database_type' => 'mysql',
     'database_name' => 'awan6_saas',
     'server' => 'localhost',
-    'username' => 'root',
-    'password' => '',       
+    'username' => 'azure',
+    'password' => '6#vWHD_$',       
     ]);
  ?>
