@@ -7,7 +7,7 @@
 		cekRole("mix");
 		$user_role = $_SESSION['role'];
 		$username_pengguna = $_SESSION['username'];
-		$nama_user = $db->get("user","nama_user",["username" => $_SESSION['username']]);
+		$nama_user = $db->get("user_pengguna","nama_user",["username" => $_SESSION['username']]);
 
 		$count_suratmasuk = $count_suratmasuk = $db->count("surat",["username_pengguna" => $username_pengguna,"hapus"=>0]);
 		$count_suratbelumselesai = $count_suratbelumselesai = $db->count("surat",["username_pengguna" => $username_pengguna,"status"=>"Belum Selesai","hapus"=>0]);
