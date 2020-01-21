@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../font/material-icons/MaterialIcons-Regular.eot);
+	src: local('Material Icons'), local(MaterialIcons-Regular), url(../font/material-icons/MaterialIcons-Regular.woff2) format("woff2"), url(../font/material-icons/MaterialIcons-Regular.woff) format("woff"), url(../font/material-icons/MaterialIcons-Regular.ttf) format("truetype")
+}
+
+[class^="mdi-"],
+[class*=" mdi-"] {
+	font-family: "Material-Design-Icons";
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: liga
+}
+
+.material-icons.md-18 {
+	font-size: 18px
+}
+
+.material-icons.md-24 {
+	font-size: 24px
+}
+
+.material-icons.md-30 {
+	font-size: 30px
+}
+
+.material-icons.md-36 {
+	font-size: 36px
+}
+
+.material-icons.md-48 {
+	font-size: 48px
+}
+
+.material-icons.md-dark {
+	color: rgba(0, 0, 0, 0.54)
+}
+
+.material-icons.md-dark.md-inactive {
+	color: rgba(0, 0, 0, 0.26)
+}
+
+.material-icons.md-light {
+	color: rgba(255, 255, 255, 1)
+}
+
+.material-icons.md-light.md-inactive {
+	color: rgba(255, 255, 255, 0.3)
+}
+
+.material-icons {
+	position: relative;
+	vertical-align: middle
+}
+
+.material-icons.middle {
+	margin: 0 16px 0 0
+}
+
+.material-icons.md-prefix {
+	color: #616161
+}
+
+.jarak-form {
+	margin-top: 25px
+}
+
+.secondary-nav {
+	margin-top: 2%
+}
+
+.judul {
+	font-size: 25px
+}
+
+.logo-side {
+	padding: 20px
+}
+
+.logo-side img {
+	max-width: 90px;
+	max-height: 90px
+}
+
+.smk-side {
+	margin: 0 0 20px
+}
+
+.description-side {
+	line-height: 1.5rem
+}
+
+#alert-message {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 16px;
+	margin-bottom: -15px
+}
+
+.error {
+	color: #f44336;
+	padding: 10px
+}
+
+.alert-message {
+	font-size: 16px;
+	margin-bottom: -15px
+}
+
+.success {
+	color: #4caf50;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 18px !important;
+	margin: -25px 0 -10px !important;
+	padding: 15px
+}
+
+.confir {
+	background: #ffebee;
+	-webkit-border-radius: px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1.47rem;
+	padding: 10px;
+	margin-bottom: 15px
+}
+
+.bts {
+	margin-bottom: -50px !important
+}
+
+.btn.small {
+	display: inline-block;
+	height: 36px;
+	margin-bottom: 15px;
+	padding: 0 .8rem;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-clip: padding-box;
+	line-height: 36px;
+	text-transform: uppercase;
+	font-size: .9rem;
+	border: none;
+	outline: 0;
+	-webkit-tap-highlight-color: transparent
+}

@@ -1,0 +1,51 @@
+/*Sidebar*/
+.sidebar-datasurat-background {
+	position: fixed;
+	/*background-color: cyan;*/
+	height: 500px;
+	width: 255px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	/*float: left;
+	display: inline-block;*/
+}
+.sidebar-menu {
+	position: fixed;
+}
+.sidebar-menu-content {
+	background-color: #2e3c43;
+	color: #ffffff;
+	width: 225px;
+	margin-bottom: 30px;
+	/*position: fixed;*/
+}
+.sidebar-menu-content a {
+	color: #ffffff;
+}
+.sidebar-menu-content a:hover {
+	text-decoration: none;
+	color: #fac266;
+}
+.sidebar-menu-content a:hover .sidebar-menu-list {
+	background-color: #3c4e57;
+}
+.sidebar-menu-header {
+	text-align: center;
+	padding: 5px;
+}
+.sidebar-menu-list {
+	background-color: #4d6470;
+	padding: 12px 20px;
+	width: 225px;
+}
+/*Tampilan sidebar menu jika di klik*/
+.sidebar-menu-list-clicked {
+	background-color: #3c4e57;
+	padding: 12px 20px;
+	/*width: 225px;*/
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-left-color: #fac266;
+	color: #fac266;
+}

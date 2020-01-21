@@ -1,0 +1,85 @@
+/*Konten*/
+.konten {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.kontenatas {
+	background-color: #ffffff;
+	width: auto;
+	height: 130px;
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.kontenatas-header {
+	font-size: 38px;
+}
+.kontenatas-isi {
+	margin-top: 8px;
+	font-size: 19px;
+}
+.kontenbawah {
+	width: 100%;
+	height: 500px;
+}
+.menubawah a:hover  {
+	text-decoration: none;
+}
+.menubawah a:hover .konten1 {
+	background-color: #00a9be; 
+}
+.menubawah a:hover .konten2 {
+	background-color: #e54e1e; 
+}
+.menubawah a:hover .konten3 {
+	background-color: #3d7ce5; 
+}
+
+.menubawah {
+	width: 33.3334%;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    float: left;
+}
+.menubawah-konten {
+	background-color: grey;
+	color: #ffffff;
+	width: 100%;
+	height: 110px;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.konten1 {
+	background-color: #00bcd4;
+}
+.konten2 {
+	background-color: #ff5722;
+}
+.konten3 {
+	background-color: #448AFF;
+}
+.menubawah-konten-header {
+	height: 36px;
+}
+.konten-header {
+	padding-top: 1.5px;
+	font-size: 22px;
+}
+.ikon {
+	float: left;
+	margin-right: 5px;
+}
+
+

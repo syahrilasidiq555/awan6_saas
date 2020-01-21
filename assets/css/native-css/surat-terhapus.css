@@ -1,0 +1,104 @@
+.konten-datasurat {
+	width: 100%;
+	height: auto;
+}
+
+/*Main Content*/
+.mainkonten {
+	width: 100%;
+	height: auto;
+	padding-left: 255px;
+	display: inline-block;
+}
+	/*header*/
+.datasurat-header {
+	width: 100%;
+	height: 50px;
+	font-size: 16.5px;
+	color: #ffffff;
+	margin-bottom: 25px;
+	background-color: #607d8b;
+}
+.datasurat-header a {
+	color: #ffffff;
+}
+.datasurat-header a:hover{
+	text-decoration: none;
+	background-color: #4d646f;
+}
+.judul-header-menu {
+	/*background-color: cyan;*/
+	width: auto;
+	height: 100%;
+	line-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+.surat-masuk-color {
+	background-color: #4d646f;
+	width: auto;
+}
+.export-agenda {
+	background-color: #ff0000;
+	font-size: 15px;
+	padding: 10px;
+	margin-bottom: 5px;
+	float: right;
+	border:none;
+}
+.export-agenda {
+	color: #ffffff;
+}
+.export-agenda:hover {
+	/*background-color: #3c6f50;*/
+	text-decoration: none;
+	color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+.mainkonten-datasurat {
+	width: 100%;
+	height: auto;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 25px;
+	padding-bottom: 55px;
+}
+
+
+	/*KONTEN TABEL*/
+.tabel-container {
+	width: 100%;
+	height: auto;
+	overflow-x: auto;
+	font-size: 14px;
+	/*overflow-x: hidden;
+	overflow-y: scroll;*/
+}
+.tabel-container table {
+	background-color: #ffffff;
+	table-layout: fixed;
+	width: auto;
+}
+.tabel-container th {
+	text-align: center;
+	white-space: nowrap;
+  	padding: 8px 10px;
+	background-color: #ff5722;
+	border-color: #ff5722;
+	border-bottom-width: 0px!important;
+}
+.tabel-container td {
+	width: 200px;
+	max-width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	padding: 8px 10px;
+}
