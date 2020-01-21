@@ -7,9 +7,9 @@
 		cekRole("mix");
 		$user_role = $_SESSION['role'];
 		$username = $_SESSION['username'];
-		$nama_user = $db->get("user","nama_user",["username"=>$username]);
-		$password = $db->get("user","password",["username"=>$username]);
-		$role = $db->get("user","role",["username"=>$username]);
+		$nama_user = $db->get("user_pengguna","nama_user",["username"=>$username]);
+		$password = $db->get("user_pengguna","password",["username"=>$username]);
+		$role = $db->get("user_pengguna","role",["username"=>$username]);
 
 		if (isset($_POST['proses-editprofile'])) {
 			$nama_user = $_POST['nama_user'];
